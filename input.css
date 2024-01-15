@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face  {
+    font-family: Barlow Semi Condensed;
+    font-weight: 400;
+    font-style: Regular;
+    src: url(/fonts/BarlowSemiCondensed-Regular.ttf) format(truetype);
+}@font-face  {
+    font-family: Barlow Semi Condensed;
+    font-weight: 500;
+    font-style: Medium;
+    src: url(/fonts/BarlowSemiCondensed-Medium.ttf) format(truetype);
+}@font-face  {
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    font-style: SemiBold;
+    src: url(/fonts/BarlowSemiCondensed-SemiBold.ttf) format(truetype);
+}
+}
